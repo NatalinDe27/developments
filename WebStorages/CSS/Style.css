@@ -1,0 +1,24 @@
+* {
+    margin: 10px;
+    padding: 5px;
+}
+
+textarea {
+    width: 200px;
+    height: 70px;
+    resize: none;
+}
+
+#columns {
+    display: flex;
+    column-count: 2;
+}
+
+#column1, #column2, button {
+    min-width: 214px;
+}
+
+p {
+    min-height: 30px;
+    max-width: 200px;
+}
